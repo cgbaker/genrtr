@@ -9,6 +9,7 @@ GenRTR stands for the **Generic Riemannian Trust-Region** package. It is a MATLA
 
 While trust-region approaches currently receive primary attention, the architecture accommodates any retraction-based optimization technique. Developers anticipate expanding the framework to additional optimization strategies.
 
+
 ## Framework
 
 The package leverages MATLAB function handles to invoke user-defined routines for objective functions, gradients, Hessians, and retractions. This design allows solvers to remain "generic" and applicable across diverse problems on arbitrary manifolds. Users can consolidate applications into standalone driver files rather than managing multiple separate components.
@@ -32,6 +33,10 @@ Current distributions include drivers for:
 ## Funding
 
 Support derived from NSF Awards 032944 and 9912415, focused on dynamical systems research.
+
+## Related Software
+
+- [RTR-ESGEV](https://github.com/cgbaker/rtresgev) — Implementations of Riemannian Trust-Region methods for the computation of Extreme Generalized Symmetric Eigenvalues
 
 ## Related Work
 
